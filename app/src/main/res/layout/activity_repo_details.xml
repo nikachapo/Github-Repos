@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ui.search_repos.details.RepoDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/repoFullNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Full Name"
+        android:layout_marginTop="64dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/repoDescTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Full Name"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/repoForksTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="1234"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        app:drawableEndCompat="@drawable/ic_git_branch"
+        android:gravity="end"/>
+
+    <TextView
+        android:id="@+id/repoUrlTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="https://www.github.com/repo"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/link_tv_bg"/>
+
+
+</LinearLayout>
